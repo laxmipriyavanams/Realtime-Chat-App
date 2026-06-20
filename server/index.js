@@ -53,7 +53,7 @@ app.post(
   (req, res) => {
     res.json({
       imageUrl:
-        `http://localhost:3001/uploads/${req.file.filename}`,
+  `https://realtime-chat-app-production-e26c.up.railway.app/uploads/${req.file.filename}`,
     });
   }
 );
