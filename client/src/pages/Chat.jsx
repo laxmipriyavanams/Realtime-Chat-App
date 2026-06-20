@@ -27,7 +27,8 @@ useEffect(() => {
   };
 }, []);
 useEffect(() => {
-  fetch("http://localhost:3001/messages")
+  fetch("https://realtime-chat-app-production-e26c.up.railway.app/messages"
+)
     .then((res) => res.json())
     .then((data) => {
       setMessages(data);
@@ -37,7 +38,7 @@ useEffect(() => {
     });
 }, []);
 useEffect(() => {
-  fetch("http://localhost:3001/users")
+  fetch("https://realtime-chat-app-production-e26c.up.railway.app/users")
     .then((res) => res.json())
     .then((data) => {
       setUsers(data);
@@ -307,7 +308,8 @@ const [
   if (!selectedUser) return;
 
   fetch(
-    `http://localhost:3001/user/${selectedUser.username}`
+    `https://realtime-chat-app-production-e26c.up.railway.app/user/${selectedUser.username}
+`
   )
     .then((res) =>
       res.json()
@@ -573,7 +575,7 @@ if (loading) {
 );
 
   fetch(
-    `http://localhost:3001/messages/${user.username}/${u.username}`
+    `https://realtime-chat-app-production-e26c.up.railway.app/messages/${user.username}/${u.username}`
   )
     .then((res) => res.json())
     .then((data) => {
@@ -1130,7 +1132,7 @@ if (
     console.log("Deleting message:", msg);
 console.log("Message ID:", msg._id);
     await fetch(
-      `http://localhost:3001/delete-message/${msg._id}`,
+      `https://realtime-chat-app-production-e26c.up.railway.app/delete-message/${msg._id}`,
       {
         method: "DELETE",
       }
@@ -1525,7 +1527,7 @@ console.log("Message ID:", msg._id);
   try {
     const res =
       await fetch(
-        "http://localhost:3001/upload",
+        "https://realtime-chat-app-production-e26c.up.railway.app/upload",
         {
           method: "POST",
           body: formData,
