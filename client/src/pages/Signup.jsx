@@ -9,7 +9,7 @@ const [password, setPassword] = useState("");
 const handleSignup = async () => {
   try {
     const res = await fetch(
-      "http://localhost:3001/signup",
+      "https://realtime-chat-app-production-e26c.up.railway.app/signup",
       {
         method: "POST",
         headers: {
