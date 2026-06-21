@@ -81,7 +81,7 @@ useEffect(() => {
   return () => {
     socket.off("receive_message");
   };
-}, []);
+}, [selectedUser]);
 useEffect(() => {
   socket.on("online_users", (count) => {
   setOnlineUsers(count);
