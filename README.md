@@ -99,7 +99,7 @@ Author
 *Laxmipriya Vanams
 
 - GitHub: [@laxmipriyavanams](https://github.com/laxmipriyavanams)
-- LinkedIn: [your-linkedin-profile](https://linkedin.com/in/your-profile)
+-LinkedIn: [Laxmipriya Vanampally](https://www.linkedin.com/in/laxmipriya-vanampally-3aa0762a5)
 
 ---
 
