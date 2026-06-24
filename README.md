@@ -42,15 +42,15 @@ A full-stack real-time chat application built with React, Node.js, Express, Sock
 ## Project Structure
 
 Realtime-Chat-App/
-├── client/          # React frontend (Vite)
-│   ├── src/
-│   ├── public/
-│   └── package.json
-└── server/          # Node.js backend
-    ├── routes/
-    ├── models/
-    ├── socket/
-    └── package.json
+* client/          # React frontend (Vite)
+- src/
+- public/
+- package.json
+* server/          # Node.js backend
+- routes/
+- models/
+- socket/
+- package.json
 
 
 ## Installation & Setup
