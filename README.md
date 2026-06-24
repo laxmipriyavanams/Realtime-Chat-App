@@ -4,6 +4,32 @@ A full-stack real-time chat application built with React, Node.js, Express, Sock
 
 *Live Demo: [realtime-chat-app-beige.vercel.app](https://realtime-chat-app-beige.vercel.app)
 
+##  Screenshots
+
+* Login Page
+
+![Login Page](screenshots/login.png)
+
+* Signup Page
+
+![Signup Page](screenshots/signup.png)
+
+* Chat Page
+
+![Chat Page](screenshots/chatpage.png)
+
+* Real-Time Messaging
+
+![Real-Time Messaging](screenshots/chatpage2.png)
+
+* Image Sharing
+
+![Image Sharing](screenshots/chatpage3.png)
+
+* User Status & Chat Features
+
+![User Status](screenshots/chatpage4.png)
+
 * Features
 
 - User Signup & Login Authentication (bcrypt)
@@ -104,9 +130,3 @@ Author
 ## License
 
 This project is licensed under the MIT License.
-
-* Screenshots
-
-- login page
-
-![Login Page](login-2.png)
