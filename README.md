@@ -101,8 +101,6 @@ Author
 - GitHub: [@laxmipriyavanams](https://github.com/laxmipriyavanams)
 -LinkedIn: [Laxmipriya Vanampally](https://www.linkedin.com/in/laxmipriya-vanampally-3aa0762a5)
 
----
-
 ## License
 
 This project is licensed under the MIT License.
